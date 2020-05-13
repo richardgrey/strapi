@@ -17,6 +17,7 @@ import vi from './vi.json';
 import zhHans from './zh-Hans.json';
 import zh from './zh.json';
 import sk from './sk.json';
+import uk from './uk.json';
 
 const trads = {
   ar,
@@ -33,11 +34,12 @@ const trads = {
   'pt-BR': ptBR,
   pt,
   ru,
+  sk,
   tr,
+  uk,
   vi,
   'zh-Hans': zhHans,
   zh,
-  sk,
 };
 
 export default trads;
