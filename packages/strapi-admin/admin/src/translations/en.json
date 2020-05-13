@@ -267,7 +267,7 @@
   "Settings.webhooks.events.delete": "Delete",
   "Settings.webhooks.created": "Webhook created",
   "app.containers.App.notification.error.init": "An error occured while requesting the API",
-  "components.Input.error.password.noMatch": "Passwords do not match",
+  "components.Input.error.password.noMatch": "Passwords do not match.",
   "form.button.done": "Done",
   "form.button.finish": "Finish",
   "notification.contentType.relations.conflict": "Content type has conflicting relations",
