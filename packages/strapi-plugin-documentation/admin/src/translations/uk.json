@@ -17,13 +17,13 @@
   "containers.HomePage.form.showGeneratedFiles": "Показати згенеровані файли",
   "containers.HomePage.form.showGeneratedFiles.inputDescription": "Корисно, якщо ви хочете переписати згенеровані документи \nПлаґін згенерує файли окремо для моделі та плаґіну. \nУвімкнувши цю опцію, буде легше налаштувати вашу документацію",
 
-  "components.Row.generatedDate": "Згенеровано востаннє Last generation",
+  "components.Row.generatedDate": "Згенеровано востаннє",
   "components.Row.open": "Відкрити",
-  "components.Row.regenerate": "Згенеровати",
+  "components.Row.regenerate": "Згенерувати",
 
   "error.regenerateDoc": "Під час генерування документації сталася помилка",
   "error.noVersion": "Необхідна версія",
-  "error.regenerateDoc.versionMissing": "Версії, яку ви намагаєтесь згенерувати не існує.",
-  "error.deleteDoc.versionMissing": "Версії, яку ви намагаєтесь видалити не існує.",
+  "error.regenerateDoc.versionMissing": "Версія, яку ви намагаєтесь згенерувати не існує.",
+  "error.deleteDoc.versionMissing": "Версія, яку ви намагаєтесь видалити не існує.",
   "notification.update.success": "Налаштування оновлено"
 }

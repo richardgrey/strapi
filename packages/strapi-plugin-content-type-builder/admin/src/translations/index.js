@@ -13,10 +13,10 @@ import ptBR from './pt-BR.json';
 import pt from './pt.json';
 import ru from './ru.json';
 import tr from './tr.json';
+import uk from './uk.json';
 import zhHans from './zh-Hans.json';
 import zh from './zh.json';
 import sk from './sk.json';
-import uk from './uk.json';
 
 const trads = {
   ar,
