@@ -12,6 +12,7 @@ import { IconLinks } from '@buffetjs/core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { PopUpWarning } from 'strapi-helper-plugin';
+import getTrad from '../../utils/getTrad';
 import en from '../../translations/en.json';
 import { HomePageContext } from '../../contexts/HomePage';
 import { Container, Flex, Row, Wrapper } from './Components';
@@ -93,9 +94,13 @@ class ListRow extends React.Component {
             </div>
             <div className="col-md-6" style={{ fontWeight: '500' }}>
               {get(this.props.values, [get(this.props.item, 'name'), 'enabled']) ? (
-                <span style={{ color: '#5A9E06' }}>Enabled</span>
+                <span style={{ color: '#5A9E06' }}>
+                  <FormattedMessage id={getTrad('ListRow.enabled')} />
+                </span>
               ) : (
-                <span style={{ color: '#F64D0A' }}>Disabled</span>
+                <span style={{ color: '#F64D0A' }}>
+                  <FormattedMessage id={getTrad('ListRow.disabled')} />
+                </span>
               )}
             </div>
             <div className="col-md-2">
@@ -116,7 +121,7 @@ class ListRow extends React.Component {
                 </div>
                 <div>
                   {this.props.item.display && en[this.props.item.display] ? (
-                    <FormattedMessage id={`users-permissions.${this.props.item.display}`} />
+                    <FormattedMessage id={getTrad(this.props.item.display)} />
                   ) : (
                     this.props.item.name
                   )}
