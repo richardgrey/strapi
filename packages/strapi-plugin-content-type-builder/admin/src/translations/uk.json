@@ -71,7 +71,7 @@
   "form.attribute.item.enumeration.graphql.description": "Дозволяє перейменувати згенеровану для GraphQL назву поля",
   "form.attribute.item.enumeration.graphql": "Назва поля для GraphQL",
   "form.attribute.item.enumeration.placeholder": "Наприклад:\nранок\nдень\nвечір",
-  "form.attribute.item.enumeration.rules": "Значення (одне на строку)",
+  "form.attribute.item.enumeration.rules": "Значення (одне на рядок)",
   "form.attribute.item.text.regex": "Регулярний вираз (RegExp)",
   "form.attribute.item.text.regex.description": "Шаблон регулярного виразу.",
   "form.attribute.item.maximum": "Максимальне значення",
