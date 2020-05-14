@@ -5,7 +5,7 @@
   "EditForm.Input.select.inputDescription": "Emails can be sent with the default provider (Sendmail) or an external provider",
   "EditForm.Input.select.label": "Providers",
   "EditForm.Input.toggle.label": "Enable email send",
-  "notification.config.success": "The settings has been updated",
+  "notification.config.success": "The settings have been updated",
   "plugin.description.long": "Send emails.",
   "plugin.description.short": "Send emails."
 }

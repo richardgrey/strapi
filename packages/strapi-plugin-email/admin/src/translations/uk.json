@@ -1,0 +1,11 @@
+{
+  "ConfigPage.description": "Налаштуйте плагін email Configure the email plugin",
+  "ConfigPage.title": "Email - Налаштування",
+  "EditForm.Input.number.label": "Максимально дозволений розмір (MB)",
+  "EditForm.Input.select.inputDescription": "Листи можуть відправлятися провайдером за замовчуванням (Sendmail) або зовнішніми провайдерами",
+  "EditForm.Input.select.label": "Провайдери",
+  "EditForm.Input.toggle.label": "Увімкнути відправку листів",
+  "notification.config.success": "Налаштування оновлено",
+  "plugin.description.long": "Надсилайте листи електронною поштою.",
+  "plugin.description.short": "Надсилайте листи електронною поштою."
+}
